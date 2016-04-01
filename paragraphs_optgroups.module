@@ -3,6 +3,6 @@
 function paragraphs_optgroups_form_alter(&$form, &$form_state, $form_id) {
   if (path_is_admin(current_path())) {
     $path = drupal_get_path('module', 'paragraphs_optgroups');
-    $form['#attached']['js'][] = $path . '/theme/paragraphs_optgroups.js';
+    $form['#attached']['js'][] = $path . '/js/paragraphs_optgroups.js';
   }
 }
