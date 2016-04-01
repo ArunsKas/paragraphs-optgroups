@@ -1,11 +1,9 @@
-# paragraphs-optgroups
+# Paragraphs Optgroups
 Add optgroups to Drupal Paragraphs select lists.
 
 ## Usage
 
-Paragraphs Optgroups creates groups based on how you name your paragraph bundles. Your paragraph bundle names should follow the convention of `Category Name - Component Name`
-
-This will create a select list like the following:
+Paragraphs Optgroups creates groups based on how you name your paragraph bundles. Your paragraph bundle names should follow the convention of `Category Name - Component Name`. This will create a select list with the following hierarchy:
 
 - ***Category Name***
   - Component Name
