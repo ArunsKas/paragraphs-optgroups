@@ -1,4 +1,4 @@
 name = Paragraphs Optgroups
 description = "Turns paragraphs select list into a sorted select list."
-package = 3xl Admin
+package = Paragraphs
 core = 7.x
