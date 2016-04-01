@@ -33,6 +33,11 @@
         }
 
         items[group].push(itemName);
+      } else {
+        if (!('Miscellaneous' in items)) {
+          items['Miscellaneous'] = [];
+        }
+        items['Miscellaneous'].push(optText);
       }
     });
 
